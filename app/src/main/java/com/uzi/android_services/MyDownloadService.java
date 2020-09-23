@@ -22,6 +22,7 @@ import androidx.core.app.NotificationCompat;
 
 import static android.os.Process.THREAD_PRIORITY_BACKGROUND;
 
+/*
   public class MyDownloadService extends Service {
     private static final String TAG = "MyDownloadService";
       private static final int ONGOING_NOTIFICATION_ID = 1234 ;
@@ -35,10 +36,11 @@ import static android.os.Process.THREAD_PRIORITY_BACKGROUND;
 
       // Binder given to clients
       private final IBinder binder = new LocalBinder();
-      /**
+*
        * Class used for the client Binder.  Because we know this service always
        * runs in the same process as its clients, we don't need to deal with IPC.
-       */
+
+
       public class LocalBinder extends Binder {
           MyDownloadService getService() {
               Log.d(TAG, "getService: ");
@@ -158,3 +160,4 @@ import static android.os.Process.THREAD_PRIORITY_BACKGROUND;
 
       }
   }
+*/
